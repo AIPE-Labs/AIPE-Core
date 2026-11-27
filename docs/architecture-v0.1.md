@@ -86,8 +86,8 @@ Core owns `schemas/engineering-state.schema.json`, project, requirements,
 operating-point, converter, semiconductor, magnetics, control, thermal,
 simulation, validation and evidence schemas, with shared quantity/provenance
 definitions as needed. Schema `$id` base is
-`https://raw.githubusercontent.com/FulongLi/AIPE-Core/v0.1.0/schemas/` (logical
-version identifier; validators must resolve locally until a release exists).
+`https://raw.githubusercontent.com/AIPE-Labs/AIPE-Core/v0.1.0/schemas/` (resolvable
+from the `v0.1.0` release tag; validators resolve locally and work offline).
 
 State version is `0.1.0`. Top-level fields include `id`, `schema_version`,
 `project`, `requirements`, `architecture`, `converter`, `semiconductors`,

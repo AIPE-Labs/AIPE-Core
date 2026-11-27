@@ -6,7 +6,7 @@ State, SI quantity and evidence conventions, and the semantic contracts that
 databases, tools, skills and agents implement. Power electronics is the first
 domain. Core contains no solver, database or agent code; those live in their
 own AIPE repositories and declare their capabilities to
-[AIPE-Registry](https://github.com/FulongLi/AIPE-Registry).
+[AIPE-Registry](https://github.com/AIPE-Labs/AIPE-Registry).
 
 ## Features
 
@@ -49,8 +49,7 @@ model is suitable or that a design is safe; see
 
 ## Project Information
 
-- Version: 0.1.0 (proposed, unreleased; no release tag has been published —
-  see [CHANGELOG.md](CHANGELOG.md))
+- Version: 0.1.0 (release tag `v0.1.0`; see [CHANGELOG.md](CHANGELOG.md))
 - Status: Prototype (`aipe.yaml`: status `experimental`, maturity `prototype`)
 - Developer: Fulong Li
 - Organisation: Spirit Connect / AIPE Labs

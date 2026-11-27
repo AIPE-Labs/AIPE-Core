@@ -29,10 +29,12 @@ assert physical validity.
 
 ## Schema identifiers and versions
 
-JSON Schema draft 2020-12 is used throughout. The logical versioned schema base
-is `https://raw.githubusercontent.com/FulongLi/AIPE-Core/v0.1.0/schemas/`;
-this is an identifier, not a promise that a release tag has been published.
-Consumers must use the complete local schema directory until a release exists.
+JSON Schema draft 2020-12 is used throughout. The versioned schema base is
+`https://raw.githubusercontent.com/AIPE-Labs/AIPE-Core/v0.1.0/schemas/`, which
+the `v0.1.0` release tag makes resolvable. A released schema is immutable: a
+change of shape is published under a new version and a new base. The checker
+still resolves every schema from the local `schemas/` directory and never
+downloads one, so validation works offline.
 Domain repositories retain their own detailed schema versions; a mapping to
 Core is not a domain-schema migration.
 
